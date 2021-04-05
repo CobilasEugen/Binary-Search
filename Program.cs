@@ -55,7 +55,7 @@ namespace binary_search
         {
             int [] test = new int[]{1,2,3,4,5,6,456,468,98,9,654,64,894,3,464,65,6,4521,
             31,646,4,6,6,546,54,231,34,964,64,964,213,25,5,6,484,13,16,};
-            int key = 964;
+            int key = 4521;
             Array.Sort(test);
             System.Console.WriteLine(BinarySearchIterative(test,key));
             System.Console.WriteLine(BinarySearchRecursive(test,key,0,test.Length));
