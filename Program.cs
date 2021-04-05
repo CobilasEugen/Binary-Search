@@ -58,7 +58,7 @@ namespace binary_search
             int key = 4521;
             Array.Sort(test);
             System.Console.WriteLine(BinarySearchIterative(test,key));
-            System.Console.WriteLine(BinarySearchRecursive(test,key,0,test.Length));
+            System.Console.WriteLine(BinarySearchRecursive(test,key,0,test.Length-1));
             
         }
     }
